@@ -1,3 +1,22 @@
+// Two types of middlewares:
+
+// Pre-request middleware:
+// 1. Simple middleware to log "Calling the /POSTS endpoint"
+// 2. loadDatabase
+
+// Post-request middleware:
+// 1. Default express middleware for adding X-Powered-By
+// 2. ????
+
+// Route specific middleware:
+// 1. Simple middleware to log "Calling the /POSTS endpoint"
+// 2. loadDatabase
+
+// Global middleware:
+// 1. Default express middleware for adding X-Powered-By
+// 2. logRequest
+
+
 const express = require ("express");
 const server = express();
 
